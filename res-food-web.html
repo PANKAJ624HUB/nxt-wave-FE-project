@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Fresh, comforting Indian meals made with care. Explore our menu and place your order."
+    />
+    <title>Ghar Ka Swaad | Fresh Indian Kitchen</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="res-food-web.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://res.cloudinary.com/dzqwq2vyk/image/upload/v1752599133/ChatGPT_Image_Jul_15_2025_10_33_34_PM_pghxwa.png"
+            class="logo-adj"
+            alt="Ghar Ka Swaad logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link nav-list" href="#wcu">Our Kitchen</a>
+            <a class="nav-link nav-list" href="#explor-menu">Menu</a>
+            <a class="nav-link nav-list" href="#pay">Delivery</a>
+            <a class="nav-link nav-list" href="#contact">Contact</a>
+            <a
+              class="nav-link nav-list"
+              href="#basket"
+              aria-label="Basket, 0 items"
+              >Basket <span id="basket-count">(0)</span></a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="top-banner d-flex flex-column justify-content-center align-items-center"
+    >
+      <p class="hero-kicker">Fresh from our kitchen</p>
+      <h1 class="food-tagline">Ghar jaisa swaad, har bite mein.</h1>
+      <p class="hero-copy">
+        Slow-cooked comfort, familiar spices, and the kind of food that brings
+        everyone to the table.
+      </p>
+      <a href="#explor-menu" class="order-btn">Explore the menu</a>
+    </div>
+    <div id="wcu">
+      <div class="wcu-card-container">
+        <p class="section-kicker">Good food, made thoughtfully</p>
+        <h2 class="wcu-head">A little taste of home</h2>
+        <p class="wcu-para pl-3 ml-3">
+          We bring you the perfect taste of home — fresh, flavorful, and made
+          with love. Every dish is crafted with care, using simple ingredients
+          and traditional recipes that bring comfort to every bite.
+        </p>
+        <div class="text-center m-3">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="wcu-card m-3">
+                <img
+                  src="https://i.pinimg.com/474x/26/c0/23/26c023e833ca1b08a20176868996f7d1.jpg"
+                  class="wcu-card-logo"
+                />
+                <h1 class="wcu-card-head">Home-Style Flavours</h1>
+                <p class="wcu-card-para p-2">
+                  Enjoy the warmth and comfort of home cooked meals made with
+                  love.<br />
+                  Simple ingredients, traditional recipes, and rich flavors that
+                  bring back memories of mom’s kitchen.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="wcu-card m-3">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2203/2203145.png"
+                  class="wcu-card-logo"
+                />
+                <h1 class="wcu-card-head">Fast and Fresh Deliver</h1>
+                <p class="wcu-card-para p-2">
+                  Fast and fresh delivery, right to your door.<br />
+                  We ensure every meal arrives hot, tasty, and on time — just
+                  the way home-style food should be enjoyed.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="wcu-card m-3">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/4762/4762040.png"
+                  class="wcu-card-logo-safe"
+                />
+                <h1 class="wcu-card-head">100% Hygiene</h1>
+                <p class="wcu-card-para p-2">
+                  We follow strict hygiene standards to ensure every meal is
+                  safe, clean, and worry-free.<br />
+                  From kitchen to delivery, your health and safety are always
+                  our top priority.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="wcu-card m-3">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2769/2769441.png"
+                  class="wcu-card-logo-rs"
+                />
+                <h1 class="wcu-card-head">Best Offers</h1>
+                <p class="wcu-card-para p-2">
+                  Great taste meets great value!<br />
+                  Enjoy exciting deals and the
+                  <span class="offers">Best offers </span>on your favorite
+                  home-style meals because good food should always come with a
+                  happy price tag.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="explor-menu">
+      <div class="explor-menu-section pb-3 pt-5 m-3">
+        <p class="section-kicker">Made fresh every day</p>
+        <h2 class="explor-menu-head">Find your next favorite</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://img.freepik.com/premium-photo/starter-snack-paneer-tikka-with-stick-plate-with-green-chutney-isolated-white-indian-cuisine-dish-with-grilled-cottage-cheese-with-vegetables-spices_466689-1200.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Veg Starter</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://hostthetoast.com/wp-content/uploads/2017/01/Sheet-Pan-Tandoori-Chicken-and-Vegetables-1.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Tandoori Specials ( Veg )</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://st5.depositphotos.com/5653638/62418/i/450/depositphotos_624183710-stock-photo-tandoori-chicken-indian-non-vegetarian.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Non-Veg Starter</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://www.eitanbernath.com/wp-content/uploads/2020/05/Butter-Paneer-1-4x5-LOW-RES-819x1024.jpeg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Paneer Special</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://static.toiimg.com/thumb/113945416/113945416.jpg?height=746&width=420&resizemode=76&imgsize=125220"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Main Course (Non-Veg)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://i.pinimg.com/736x/b1/e6/ae/b1e6ae89ae2c3b209ca867ff8de3c3dd.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Tandoori Specials (Non-Veg)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://i.pinimg.com/736x/92/bd/8b/92bd8bd707c650c533a6c892a4cae911.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Main Course (Veg)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Biryani</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNk08Z35W-FwdeuKRfXRTPfdA-QMEPLZYwOlvMU8APLZa58GxVDd5Pcaw&s=10"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Thali (VEG)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://media-cdn.tripadvisor.com/media/photo-m/1280/15/fe/3b/a8/non-veg-thali.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Thali (NON-VEG)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://i.pinimg.com/736x/c2/0c/ae/c20cae531d01fe1c733c280167802451.jpg"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Desserts & Sweets</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow">
+              <div class="explor-menu-card p-3 m-3">
+                <img
+                  src="https://foodtech101.food.blog/wp-content/uploads/2021/07/pexels-photo-96974.jpeg?resize=1253%2C1253"
+                  class="explor-mean-img pl-3"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <p class="explor-menu-titel">Beverages</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="basket" class="basket-section" aria-labelledby="basket-title">
+      <div class="basket-panel">
+        <p class="section-kicker">Your meal, your way</p>
+        <h2 id="basket-title" class="basket-title">Your basket</h2>
+        <div id="basket-items" aria-live="polite"></div>
+        <div class="basket-total">
+          <span>Total</span><span id="basket-total">₹0</span>
+        </div>
+        <form id="checkout-form" class="basket-form">
+          <div>
+            <label for="customer-name">Your name</label>
+            <input
+              id="customer-name"
+              name="name"
+              autocomplete="name"
+              required
+            />
+          </div>
+          <div>
+            <label for="customer-phone">Phone number</label>
+            <input
+              id="customer-phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              pattern="[0-9+ ()-]{8,}"
+              required
+            />
+          </div>
+          <button class="checkout-btn" type="submit" disabled>
+            Continue order
+          </button>
+        </form>
+        <p
+          id="order-message"
+          class="contact-details mt-3 mb-0"
+          aria-live="polite"
+        ></p>
+      </div>
+    </section>
+    <div id="pay">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex order-md-2">
+            <img
+              src="https://cdni.iconscout.com/illustration/premium/thumb/food-delivery-agent-delivering-using-scooter-illustration-download-in-svg-png-gif-file-formats--boy-order-meal-pack-e-commerce-shopping-illustrations-3760612.png"
+              class="pay-img-adj"
+            />
+          </div>
+          <div
+            class="col-12 col-md-8 d-flex flex-column justify-content-center order-md-1"
+          >
+            <p class="para">
+              <span class="offers"> Delivery & Payment</span> <br />
+              We deliver hot and fresh food right to your doorstep—fast, safe,
+              and on time.<br />
+              Track your order live and choose your preferred delivery slot.<br />
+              Pay your way: UPI, cards, wallets, or cash on delivery – all
+              secure and hassle-free.<br />
+              Every order comes with a payment receipt and order summary.
+            </p>
+          </div>
+          <div class="reward-card pt-5 pb-5 order-md-3">
+            <div class="row">
+              <div
+                class="col-12 col-md-7 d-flex flex-column justify-content-center"
+              >
+                <h1 class="reward-head">Welcome Gift: 50% OFF Just for You!</h1>
+                <p class="reward-para">
+                  Got a discount coupon? Redeem it now and enjoy your favorite
+                  meals at a lower price! Tasty food, amazing deals — all just
+                  one click away. Don’t miss out on the savings!
+                </p>
+                <div class="d-md-none">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/3787/3787564.png"
+                    class="reward-img-adj"
+                  />
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="order-btn reward-btn-adj"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                  >
+                    REDEEM NOW
+                  </button>
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Coupon Code
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img
+                            src="https://res.cloudinary.com/dzqwq2vyk/image/upload/v1753010456/Google_AI_Studio_2025-07-20T11_17_56.898Z_fyau4k.png"
+                            class="google-img-adj"
+                          />
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 d-none d-md-block">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/3787/3787564.png"
+                  class="reward-img-adj"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="contact" class="follow-card page-section">
+      <div class="container">
+        <p class="section-kicker">Come say hello</p>
+        <h2 class="follow-head">We'd love to hear from you</h2>
+        <p class="contact-details">
+          Questions about the menu or a special request? Find us on the social
+          pages below and send us a message.
+        </p>
+      </div>
+    </section>
+    <div id="follow">
+      <div class="follow-card m-3 pt-4 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="follow-head">Follow Us</h2>
+              <hr />
+              <div class="d-flex flex-row justify-content-center">
+                <div class="icon-back">
+                  <a
+                    href="https://www.linkedin.com/in/pankaj-thakur-2b197b358/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="icon-adj">in</span>
+                  </a>
+                </div>
+                <div class="icon-back">
+                  <a
+                    href="https://x.com/PNKJ624"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="icon-adj">X</span>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <p
+                style="
+                  color: #333;
+                  font-size: 16px;
+                  font-weight: bold;
+                  text-align: center;
+                "
+              >
+                Fresh meals, familiar flavors, and a warm welcome every day.
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <span>© 2026 Ghar Ka Swaad. Made with care.</span>
+      <a href="#explor-menu">Back to the menu ↑</a>
+    </footer>
+    <script src="res-food-web.js"></script>
+  </body>
+</html>
